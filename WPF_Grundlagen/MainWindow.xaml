@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPF_Grundlagen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Grundlagen"
+        mc:Ignorable="d"
+        Title="M120 Nachweis 2022" Height="300" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="12*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="203*"/>
+            <RowDefinition Height="61*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Viel Glück" HorizontalAlignment="Left" Width="62" Grid.Row="0" Margin="0,0,0,164" Grid.RowSpan="2"/>
+        <Button Content="Button 1" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="86" Width="170"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,111,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="101,111,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,154,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="101,154,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Grid.Column="1" Content="Button 2" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="170" Height="43"/>
+        <Button Grid.Column="1" Content="Button 3" HorizontalAlignment="Left" Margin="10,58,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Grid.Column="1" Content="Button 4" HorizontalAlignment="Left" Margin="100,58,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="10,111,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="10,154,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="80"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="100,111,0,0" Grid.Row="1" VerticalAlignment="Top" Height="81" Width="80"/>
+        <ListBox Grid.Column="2" Grid.Row="1"/>
+        <GridSplitter Grid.Column="2" HorizontalAlignment="Left" Height="284" Grid.RowSpan="3" VerticalAlignment="Top" Width="6"/>
+
+    </Grid>
+</Window>
