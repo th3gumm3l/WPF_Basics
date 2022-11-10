@@ -60,22 +60,18 @@
 
         <TextBlock Text="Viel Glück" Grid.Row="0" FontSize="12" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left"/>
 
-        <Grid Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
+        <Grid Grid.Row="2" Grid.Column="2" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
 
-            <ListBox>
+            <ListBox ScrollViewer.VerticalScrollBarVisibility="Auto">
                 <ListBox.Items>
-                    <ListBoxItem>
-                        <StackPanel>
-                            <TextBlock Text="Item 1" FontSize="12"/>
-                            <TextBlock Text="Item 2" FontSize="12"/>
-                            <TextBlock Text="Item 3" FontSize="12"/>
-                            <TextBlock Text="Item 4" FontSize="12"/>
-                        </StackPanel>
-                    </ListBoxItem>
+                    <ListBoxItem Content="Item 1" />
+                    <ListBoxItem Content="Item 2" />
+                    <ListBoxItem Content="Item 3" />
+                    <ListBoxItem Content="Item 4" />
                 </ListBox.Items>
             </ListBox>
             <Rectangle Fill="Lavender" Grid.Row="2" Grid.RowSpan="2"/>
