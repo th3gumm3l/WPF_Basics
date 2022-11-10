@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPF_Grundlagen.Properties
+namespace Nachweis_Formularlayouttechnik.Properties
 {
 
 
