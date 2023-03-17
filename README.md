@@ -1,6 +1,6 @@
-# Wpf_Basics
+# WPF Basics
 
-## Description
+## Exercise-description
 The window has a height of 300 pixels and a width of 500 pixels immediately after startup. The window has the title "M120 Pruefung 2022".  
 The first line has a fixed height of 20 pixels and contains the text "Good luck", left-aligned, font size 12.  
 On the second line, left side, there are two areas with buttons. On the second line, right side, there is a ListBox whose size
